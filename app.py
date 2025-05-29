@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import joblib
 
-# Load the saved model, label encoders, and scaler
+# Load the saved model, label encoders, and scaler 
 model = joblib.load("model.pkl")
 label_encoders = joblib.load("label_encoders.pkl")
 scaler = joblib.load("scaler.pkl")
